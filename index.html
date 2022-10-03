@@ -1,0 +1,151 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- This website is adapted from Jeff's website used in the live coding video and the Bootstrap CSS file. -->
+	<!-- Source:  https://sleepcoacher.cs.brown.edu/ -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<title>Toasters</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#">Toasters</a>
+		<div class="collapse navbar-collapse">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link" href="#about">Description</a></li>
+				<li class="nav-item"><a class="nav-link" href="#results">Results</a></li>
+				<li class="nav-item"><a class="nav-link" href="#personas">Personas</a></li>
+				<li class="nav-item"><a class="nav-link" href="#storyboard">Storyboard</a></li>
+
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="d-flex flex-column justify-content-center align-items-center top-pane">
+
+	<h1 class="text-light display-2" style="font-size:8em">Some Toasts?</h1>
+	<h2 class="text-light text-center h6" style="font-size:3em">An Investigation into Toaster Interface at Brown Dining Halls</h2>
+	<!--<a href="#install" class="btn text-light btn-lg">Download App</a>-->
+</div>
+
+<div id="about" class="container-fluid">
+	<div class="row align-items-center py-3 py-sm-5 px-3 px-sm-5 mx-xl-5 text-light">
+		<div class="col-sm-12 col-md-6 col-lg-5 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5 order-md-4">
+			<h3>Conveyor Toasters: Everything you need to know</h3>
+			<p class="lead">Conveyor toasters use a conveyor to carry bread through a heating chamber
+			where the bread is exposed to heating elements. </p>
+			<p class="lead">Users place their bread onto the conveyor,
+			 wait for the toasting process to complete, and retrieve the bread from the tray.
+			The dial can be used to adjust the speed of the
+			conveyor, with slower speeds resulting in darker toast colors. The buttons can be used to choose
+			between top heat or bottom heat, or both.
+	 	  </p>
+		</div>
+		<div class="text-center col-sm-3 col-md-1 col-lg-2 pb-3 pb-sm-5">
+
+			<img class="border border-white" src="./images/conveyor-sketch.png" alt="conveyor toaster sketch" style="height: 22rem;">
+		</div>
+
+	</div>
+</div>
+
+<div id="results" class="container-fluid dream">
+	<div class="row px-md-3 px-lg-5 pt-3 pt-md-5 justify-content-center">
+		<div class="col-md-6 col-xl-5 col-xxl-4 mb-4">
+			<div class="card">
+				<div class="card-header">
+					<h3 style="padding:.5em">Interview Questions</h3>
+				</div>
+				<div class="card-body lead">
+					<p class="card-text">To better understand the users, I conducted 3 interviews with individuals who use the conveyor toasters at one of Brown's dining halls. Below are the interview questions I designed:</p>
+					<p class="card-text">1. How many times in the past week have you used the toaster?</p>
+					<p class="card-text">2. What do you usually do when you are waiting for your bread to be toasted?</p>
+					<p class="card-text">3. (Follow-up on question 2) Why would you stay by the toaster/walk away/else while you are waiting?</p>
+					<p class="card-text">4. What do you think of the speed of the toaster? </p>
+					<p class="card-text">5. Have you ever adjusted the speed of the toaster?</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 col-xl-5 col-xxl-4 mb-4">
+			<div class="card h-100">
+				<div class="card-header">
+					<h3 style="padding:.5em">Results from Interviews and Observations</h3>
+				</div>
+				<div class="card-body lead">
+					<ul>
+						<li>
+					<p class="card-text" style="padding:.5em"> There are generally two kinds of behavior when people are waiting for their toast.
+						Some of them will leave the toaster and get other food, and return to the toaster after a while to pick up
+						their toast, while others will stand by the toaster and wait.</p></li>
+						<li>
+					<p class="card-text" style="padding:.5em"> Among those who stand by the toaster and wait,
+						most of them keep staring at the toaster while they are waiting. Most interviewees report a certain degree
+						of impatience at least some of the time when they are waiting for the toast. Not being able to see the toast gives them anxiety.
+						Those who leave the toaster are less conscious of the toasting process.</p></li>
+						<li>
+					<p class="card-text" style="padding:.5em"> People generally do not adjust the dial before or during the toasting process.
+						 Even frequent users of the toaster do not adjust the conveyor speed or other settings.
+						Only in rare cases do they consider changing the settings.</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="personas" class="container-fluid bg-white">
+	<div class="container">
+		<h4 style="font-size:1.5em; padding-top:2em">Using the data collected, I created two personas that represent part of the spectrum of users. </h4>
+		<h4 style="font-size:2em">Persona 1</h4>
+		<div class="text-center col-sm-3 col-md-1 col-lg-2 pb-3 pb-sm-5">
+			<img class="border border-white" src="./images/anna.png" alt="conveyor toaster sketch" style="height: 30rem;">
+		</div>
+		<p class="card-text" style="font-size:1.3em"> As a regular user of the conveyor toasters, Anna is dissatisfied with the toaster speed.
+			She is particularly annoyed that she can not visually track the location of her toast and is unable to end the toasting process early.
+			Anna represents the group of users who are time-sensitive and care about the quality of their toast.  </p>
+
+		<h4 style="font-size:2em">Persona 2</h4>
+		<div class="text-center col-sm-3 col-md-1 col-lg-2 pb-3 pb-sm-5">
+			<img class="border border-white" src="./images/john.png" alt="conveyor toaster sketch" style="height: 30rem;">
+		</div>
+		<p class="card-text" style="font-size:1.3em; padding-bottom:1.5em"> John represents the group of users who use the toaster without paying attention to
+		the details of its design. He is a casual user who does not care too much about the time it takes
+		or the quality of his toast. John does not have any particular problem with the interface.</p>
+
+	</div>
+</div>
+
+<div id="storyboard" class="container-fluid">
+	<div class="container text-light text-center">
+		<h4 style="font-size:4em">Storyboard</h4>
+		<h4 style="font-size:1.8em">Anna and the Toaster</h4>
+		<hr>
+		<img class="pt-4" src="./images/storyboard_anna.png" alt="Anna's Storyboard" style="height: 35rem;">
+
+
+		<div class="row pt-4 text-center">
+			<div class="col-sm-12">
+				<h4 style="padding-bottom:1.5em">I created the above storyboard for Anna to depict her user journey. </h4>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<footer class="bg-white py-3">
+	<div class="container text-right">
+		<p class="mb-0"><br>
+			Made with <font color="#FF1493">&#9829;</font> in Providence</p>
+	</div>
+</footer>
+
+</body>
+</html>
