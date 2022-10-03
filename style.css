@@ -51,12 +51,12 @@ h4 {
 }
 
 .dream {
-	background: url(../images/toast2.jpeg) center fixed;
+	background: url(toast2.jpeg) center fixed;
 	background-size: cover;
 }
 
 .top-pane {
-	background: url(../images/toast.jpeg) center fixed;
+	background: url(toast.jpeg) center fixed;
 	background-size: cover;
 	height: calc(100vh - 56px);
 }
